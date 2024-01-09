@@ -1,0 +1,19 @@
+ventana 1: login cliente | login admin
+ventana 2: login (depende del tipo de usuario)
+
+CLIENTE
+ventana 3: 
+	Menú: 	
+		Catálogo (Ventana 4: ID - nombre - precio)
+		Comprar (list con selección)
+			Ventana 5: Resumen de compra.
+		Salir
+
+ADMIN:
+ventana 3:
+	Menú:
+		Catálogo (Ventana 4: ID - nombre - precio)
+		Agregar producto (Ventana 4: Busqueda por ID o nombre)
+		Modificar producto (Ventana 4: Busqueda por ID o nombre)
+		Eliminar producto (Ventana 4: Busqueda por ID o nombre)
+		Salir
