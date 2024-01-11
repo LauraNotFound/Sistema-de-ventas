@@ -5,8 +5,10 @@ print("\n\tBienvenido a TuShop")
 opc = input("¿Es usted Cliente(0) o Administrador(1)?: ")
 if opc == "0":
     os.system("cls")
-    objCtalogo = Catalogo(producto="null", identidad="null", precio=0)
-    objCtalogo.mostrarLista()
+    objCtalogo = Catalogo()
+    script = os.path.dirname(__file__) #Dirección de ruta.
+    archivo = script + "/data.json"
+    objCtalogo.mostrarLista(archivo)
 
 elif opc == "1":
     os.system("cls")

@@ -1,0 +1,34 @@
+{
+    "productos": [
+        {
+            "id": "111",
+            "name": "Estudio en Escarlata",
+            "precio": 45,
+            "stock": 15
+        },
+        {
+            "id": "111",
+            "name": "El sabueso de los Baskerville",
+            "precio": 50,
+            "stock": 14
+        },
+        {
+            "id": "111",
+            "name": "La aventura de la liga de los pelirrojos",
+            "precio": 45,
+            "stock": 13
+        },
+        {
+            "id": "111",
+            "name": "El carbunclo azul",
+            "precio": 50,
+            "stock": 12
+        },
+        {
+            "id": "111",
+            "name": "La aventura de un esc\u00e1ndalo en Bohemia",
+            "precio": 55,
+            "stock": 11
+        }
+    ]
+}
